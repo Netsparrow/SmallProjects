@@ -1,0 +1,208 @@
+div {
+    opacity: 0.9;
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    color: seashell;
+    font-size: 22px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+}
+
+
+.fixed.header {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+    line-height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.header img{
+    height: 50px;
+    display: flex;
+}
+
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.breadcrumb a{
+    text-decoration: underline;
+}
+
+.breadcrumb > li {
+    display: inline;
+}
+
+
+
+
+
+
+
+/*MAIN HEADER*/
+.second{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.main.header{
+    background-image: url(./header\ background.jpeg);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpic{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: black;
+    opacity: 100;
+}
+
+.mission{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*TEA OF THE MONTH*/
+
+
+.tea.of.the.month{
+    display: flex;
+    justify-content: center;
+}
+
+.tea.container{
+    margin: 50px;
+    width: 1000px;
+}
+
+
+.pictures img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+
+.pictures{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.top.pics{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.bottom.pics{
+    margin-bottom: 80px;
+}
+
+
+/*LOCATIONSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+.locations{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.locations.container{
+    background-image: url(./the\ tea\ cozy.jpeg);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.locations.title{
+    margin-bottom: 15px;
+}
+
+.locations.adresses{
+    gap: 40px;
+}
+
+.box{
+    width: 300px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 1;
+}
+
+.box p{
+    opacity: 1;
+}
+
+
+
+/*FOOOTER*/
+
+#footer{
+    height: 200px;
+}
+
+
+.footer.title{
+    margin-bottom: 50px;
+}
+
+
+.contact h5{
+    margin-top: 20px;
+}
+
+
+
+
+
+/*COPYRIGHT*/
+
+#copyright{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 20px;
+}
